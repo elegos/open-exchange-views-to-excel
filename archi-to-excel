@@ -2,5 +2,4 @@ current_dir=$(pwd)
 script_dir="${HOME}/src/archi-open-exchange-file-to-csv"
 
 cd $script_dir
-echo pipenv run exec "${current_dir}" -o "${current_dir}" "$@"
 pipenv run exec "${current_dir}" -o "${current_dir}" "$@"
